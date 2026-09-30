@@ -5,7 +5,7 @@ function somar()
     {
        numero1 = parseInt(document.getElementById("numero1").value)
         numero2 = parseInt(document.getElementById("numero2").value)
-        resultado1 = numero1 * numero2
+        resultado1 = numero1 + numero2
         document.getElementById("resultado1").innerHTML= resultado1
     }
 
@@ -16,6 +16,7 @@ function somar()
         f = (celsius*9/5) + 32
         document.getElementById("resultado2").innerHTML = f
     }
+
     let altura, raio, volume
     function volume()
     {
@@ -28,7 +29,6 @@ function somar()
     } 
 
     let altura2, largura2, comprimento2
-
     function volume2()
     {
         altura2 = parseInt(document.getElementById(altura2).value)
